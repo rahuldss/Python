@@ -5,7 +5,7 @@ class Class1():
     def __init__(self):         #Constructor
         self.__pri=("I am private")
         self._pro=("I am protected")
-        self.pub=("I am public")
+        self.pub=("I am public.")
 
     def func1(self):
         print("func1 of Class1")

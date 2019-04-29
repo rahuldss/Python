@@ -3,8 +3,8 @@ class Class1():
     My First Class named Class1
     '''
     def __init__(self):         #Constructor
-        self.__pri=("I am private")
-        self._pro=("I am protected")
+        self.__pri=("I am private.")
+        self._pro=("I am protected.")
         self.pub=("I am public.")
 
     def func1(self):

@@ -1,4 +1,4 @@
-dict1={'Age':25, 'Name' : 'Mr Ram'}
+dict1={'Age':35, 'Name' : 'Mr Ram'}
 print(dict1)
 print(dict1['Age'])     #readable code
 

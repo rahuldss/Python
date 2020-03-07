@@ -1,5 +1,9 @@
 import os
 
+# x = create
+# r = read
+# w = read/write
+# a = append
 newFile=open("myFile1.txt","r")
 
 newFile.mode

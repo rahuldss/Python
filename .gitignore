@@ -1,0 +1,4 @@
+docx_extract/Docs/*
+build/
+*.spec
+__pycache__

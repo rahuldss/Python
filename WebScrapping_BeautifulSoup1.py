@@ -1,12 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 
-r=requests.get("http://www.edureka.co/")
+# r=requests.get("http://www.edureka.co/")
+r=requests.get("https://github.com/bitgrit-official/competition-platform/pull/504")
 c=r.content
-#print(c)
+# print(c)
 
 soup=BeautifulSoup(c,"html.parser")
-#print(soup.prettify())
+print(soup.prettify())
 
 links=[]
 

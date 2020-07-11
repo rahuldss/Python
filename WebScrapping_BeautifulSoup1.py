@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# r=requests.get("http://www.edureka.co/")
+r=requests.get("https://github.com/bitgrit-official/competition-platform/pull/504")
 url = "https://www.amazon.com/Lenovo-ThinkPad-20QT001PUS-Mobile-Workstation/dp/B07TZ517ND/ref=sr_1_10?keywords=lenovo+i7+16gb+9th+generation&qid=1584684114&sr=8-10"
 
 headers = {
@@ -11,6 +13,7 @@ c=r.content
 # print(c)
 
 soup=BeautifulSoup(c,"html.parser")
+print(soup.prettify())
 # print(soup.prettify())
 
 # links=[]

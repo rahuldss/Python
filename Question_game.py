@@ -6,8 +6,8 @@ import os
 
 
 # Generate API here for questions
-url = "https://opentdb.com/api.php?amount=1&category=18"
-# url = "https://opentdb.com/api.php?amount=1"
+# url = "https://opentdb.com/api.php?amount=1&category=18"
+url = "https://opentdb.com/api.php?amount=1"
 endGame = ""
 score_correct = 0
 score_incorrect = 0
@@ -64,4 +64,5 @@ while endGame != 'quit':
         os.system('clear')
         print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
-print("\nThanks for playing!!!")
+print("\nThanks for playing!!!\nCreated By Narender Sharma")
+input('')
